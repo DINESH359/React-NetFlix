@@ -1,0 +1,40 @@
+.movie-details {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .details-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .details-header img {
+    max-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .details-info {
+    margin-top: 20px;
+  }
+  
+  .details-info p {
+    margin: 8px 0;
+    line-height: 1.6;
+  }
+  
+  .ratings h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ratings p {
+    margin: 5px 0;
+  }
+  

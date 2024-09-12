@@ -1,8 +1,11 @@
 import React from 'react';
 
-const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
+const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type }, onMovieClick }) => {
   return (
-    <div className="movie" key={imdbID}>
+    <div className="movie" onClick={() => {
+      console.log(`Movie clicked: ${Title}`);  // Log the movie click event
+      onMovieClick(imdbID);
+    }} key={imdbID}>
       <div>
         <p>{Year}</p>
       </div>
